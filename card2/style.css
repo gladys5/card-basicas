@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+figure {
+  width: 400px;
+  margin: 20px auto;
+  height: 600px;
+  padding: 20px 0;
+  border: 1px solid burlywood;
+  background-color: burlywood;
+  border-radius: 10px;
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px black;
+}
+
+.laura {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+h3 {
+  text-align: center;
+  font-family: Arial;
+  background-color: burlywood;
+  color: white;
+}
+p {
+  text-align: center;
+  font-family: Arial;
+  background-color: burlywood;
+  padding: 30px;
+  color: white;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  background: brown;
+  border-radius: 3px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 20px auto;
+  box-shadow: 0 5px 10px black;
+}
